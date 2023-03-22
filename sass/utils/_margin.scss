@@ -1,0 +1,38 @@
+.mt155 {
+    margin-top: 10vh;
+}
+.mt86 {
+    margin-top: 3vh;
+}
+.mb195 {
+    margin-bottom: 32vh;
+}
+.marginAuto {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+}
+.mb20 {
+    margin-bottom: 20px;
+}
+.justContCenter {
+    display: flex;
+    justify-content: center;
+}
+.justSpaceBetween {
+    display: flex;
+    justify-content: space-between;
+}
+.mr41px {
+    margin-right: 41px;
+}
+.mr141 {
+    margin-right: 141px;
+}
+.mr30 {
+    margin-right: 15px;
+    @media (min-width: $screen-large) {
+        margin-right: 20px;
+    }
+}

@@ -1,0 +1,42 @@
+.formBlock {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2B2B2B;
+    margin-bottom: 12px;
+}
+
+input {
+    align-items: center;
+    padding: 16px 57px 16px 14px;
+    gap: 12px;
+    background: #F7F7F9;
+    border-radius: 14px;
+    margin-bottom: 30px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: lowercase;
+    color: #6A6A6A;
+    opacity: 0.6;
+}

@@ -1,0 +1,98 @@
+.basketContainer {
+    position: relative;
+    padding: 20px;
+}
+
+.basketItemDetails {
+    width: 100%;
+    display: flex;
+}
+
+.basketBtnIcon {
+    width: 18px;
+    height: 18px;
+}
+.basketActionsBtn {
+    width: 40px;
+    height: 40px;
+    fill: white;
+    background: #0D6EFD;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+.basketItemActions {
+    display: grid;
+    margin-left: auto;
+}
+
+.sectionFooter {
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+    height: 200px;
+
+}
+
+.sectionTitle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2B2B2B;
+    text-align: center;
+}
+
+.itemsCounter {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1A2530;
+}
+
+.subTotalDelivery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.subTotalTitle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #707B81;
+    margin: 0 0 10px 0;
+}
+
+.subTotalCount {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #1A2530;
+}
+
+.line {
+    border-bottom: 1px dashed #707B81;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.black {
+    color: #1A2530;
+}
+
+.blue {
+    color: #0D6EFD;
+}
+.scrollMyCard {
+    overflow-y: scroll;
+    height: calc(100vh - 456px);
+}

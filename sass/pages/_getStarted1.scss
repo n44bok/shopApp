@@ -1,0 +1,103 @@
+
+.bodyBlue {
+    background-color: $bg-blue;
+}
+.headerTitleContainer {
+    display: flex;
+    margin-top: 17vh;
+    margin-bottom: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    @media (min-width: $screen-med) {
+        margin-top: 16vh;
+    }
+}
+.headerGetStarted {
+    position: relative;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ECECEC;
+    margin-top: 0;
+
+    @media (min-width: $screen-med) {
+        font-size: 50px;
+    }
+}
+.highlight1 {
+    display: block;
+    position: absolute;
+    left: calc(50% - 110px);
+    top: -20px;
+    margin-left: -1.25rem;
+
+    @media (min-width: $screen-med) {
+        margin-left: -5.25rem;
+      }
+}
+
+.highlight2 {
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30vh;
+
+    @media (min-width: $screen-med) {
+        margin-bottom: 30vh;
+    }
+}
+
+.smile {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    opacity: 0.7;
+    width: 10%;
+}
+
+.nike {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 70vh;
+    left: 0vw;
+    width: 100vw;
+}
+
+.foot {
+    position: absolute;
+    top: 10%;
+    right: 0;
+}
+
+.Highlight_10 {
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+    width: 10%;
+    opacity: 0.7;
+}
+
+.Highlight_11 {
+    position: absolute;
+    top: 55%;
+    left: 75%;
+    transform: rotate(70.25deg);
+    width: 5%;
+    opacity: .7;
+}
+
+.Ellipse {
+    position: fixed;
+    bottom: 35%;
+    left: 55%;
+    transform: translateX(-55%);
+}
+.btnBlockFooter {
+    margin-bottom: 16vh;
+}

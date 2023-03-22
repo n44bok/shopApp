@@ -1,0 +1,87 @@
+.mainTitle {
+    margin-top: 14vh;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2B2B2B;
+
+    @media (min-width: $screen-med) {
+        font-size: 50px;
+        margin-top: 20vh;
+    }
+}
+
+.mainSubTitile {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #707B81;
+    margin: 0;
+    margin-bottom: 30px;
+
+    @media (min-width: $screen-med) {
+        font-size: 20px;
+        line-height: 34px;
+        margin-bottom: 50px;
+    }
+}
+
+.btnBlock {
+    margin-bottom: 19vh;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+    @media (min-width: $screen-med) {
+        margin-bottom: 20vh;
+    }
+}
+.btnNewUser {
+    display: block;
+    background: transparent;
+    width: 335px;
+    height: 50px;
+    border: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #1A1D1E;
+    cursor: pointer;
+}
+
+.newUserBtnTitle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #6A6A6A;
+    @media (min-width: $screen-med) {
+        font-size: 20px;
+    }
+}
+
+.newUserBtnTitleCreate {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #1A1D1E;
+    @media (min-width: $screen-med) {
+        font-size: 20px;
+    }
+}

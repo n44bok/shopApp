@@ -1,0 +1,60 @@
+.foot2 {
+    margin-top: 9vh;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    @media (min-width: $screen-med) {
+        margin-top: 10vh;
+    }
+}
+.Ellipse2 {
+    margin-bottom: 0vh;
+    display: flex;
+    justify-content: center;
+    @media (min-width: $screen-med) {
+        margin-bottom: 8vh;
+    }
+}
+
+.smile2 {
+    position: absolute;
+    top: 15%;
+    left: 80%;
+    color: #073c5c;
+    opacity: 0.7;
+}
+.headerGetStarted2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 44px;
+    text-align: center;
+    color: #ECECEC;
+    margin: 0;
+    margin-bottom: 12px;
+    @media (min-width: $screen-med) {
+        font-size: 50px;
+        line-height: 54px;
+        margin-bottom: 2vh;
+    }
+}
+.subTitile {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #D8D8D8;
+    margin: 0;
+    margin-bottom: 40px;
+    @media (min-width: $screen-med) {
+        font-size: 20px;
+        line-height: 34px;
+        margin-bottom: 3vh;
+    }
+}
+.footerBtnBlock {
+    margin-bottom: 17vh;
+}

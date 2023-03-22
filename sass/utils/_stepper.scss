@@ -1,0 +1,23 @@
+.stepper {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    width: 200px;
+
+}
+.step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10px;
+    width: 40px;
+    border-radius: 10%;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+}
+.active {
+    background-color: white;
+    width: 60px;
+}

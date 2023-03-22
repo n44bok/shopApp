@@ -1,0 +1,45 @@
+.registerMainTitle {
+    margin-top: 6vh;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2b2b2b;
+    @media (min-width: $screen-med) {
+        font-size: 50px;
+        margin-top: 8vh;
+    }
+}
+.backBtnBlock {
+    margin-top: 3vh;
+    max-width: 370px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: start;
+}
+
+.backBtnIconReg {
+    width: 44px;
+    height: 44px;
+    background: F7F7F9;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.btnBlockPrimary {
+    margin-bottom: 6vh;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+    @media (min-width: $screen-med) {
+        margin-bottom: 15vh;
+    }
+}
