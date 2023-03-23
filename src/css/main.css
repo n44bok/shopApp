@@ -611,7 +611,7 @@ input {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   width: 360px;
   margin-bottom: 2vh;
 }
@@ -1609,7 +1609,7 @@ li span {
   display: flex;
   margin-right: auto;
   margin-left: auto;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .backBtnIconReg {

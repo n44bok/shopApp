@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
 import { BrowserRouter } from 'react-router-dom';
-import GetStarted1 from './pages/GetStarted1';
-import GetStarted2 from './pages/GetStarted2';
-import GetStarted3 from './pages/GetStarted3';
+// import GetStarted1 from './pages/GetStarted1';
+// import GetStarted2 from './pages/GetStarted2';
+// import GetStarted3 from './pages/GetStarted3';
 import SignIn from './pages/SignIn';
 import RegisterAccount from './pages/RegisterAccount';
 import Explore from './pages/Explore';
