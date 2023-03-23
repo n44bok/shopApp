@@ -29,3 +29,13 @@
  .bodyGray {
      background: #F7F7F9;
  }
+
+ .bodyBlue {
+    background: #1483C2;
+}
+
+.mobDisplNone {
+    @media (max-width: $screen-med) {
+        display: none;
+    }
+}

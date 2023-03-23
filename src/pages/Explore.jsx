@@ -65,7 +65,7 @@ const Explore = () => {
   };
 
   const randomItems = [];
-  while (randomItems.length < 2) {
+  while (randomItems.length < 10) {
     const item = data[Math.floor(Math.random() * data.length)];
     if (!randomItems.includes(item)) {
       randomItems.push(item);
@@ -118,11 +118,11 @@ const Explore = () => {
             </div>
           </div>
         </div>
-        <div className="popularBlock">
-          <h3 className="popularTitle">Popular shoes</h3>
-          <button className="seeAllBtn">See all</button>
+        <div className="popularBlockMob">
+          <h3 className="popularTitleMob">Popular shoes</h3>
+          <button className="seeAllBtnMob">See all</button>
         </div>
-        <div className="shopCardContainer">
+        <div className="shopCardContainerMob">
           {randomItems.map((item) => (
             <div key={uuidv4()} className="shopCard">
               <button className="heartBtn" onClick={() => navigate("/")}>
@@ -148,9 +148,9 @@ const Explore = () => {
             </div>
           ))}
         </div>
-        <div className="popularBlock">
-          <h3 className="popularTitle">New Arrivals</h3>
-          <button className="seeAllBtn">See all</button>
+        <div className="newArrivalsHeaderBlockMob">
+          <h3 className="newArrivalsTitleMob">New Arrivals</h3>
+          <button className="seeAllBtnMob">See all</button>
         </div>
         <Slider
           autoplay={true}
@@ -158,6 +158,7 @@ const Explore = () => {
           infinite={true}
           slidesToShow={1}
           slidesToScroll={1}
+          className="sliderMob"
         >
           {data.map((item) => (
             <div key={item.id} className="newArrivalsBlock">
@@ -308,18 +309,78 @@ const Explore = () => {
           </button>
         </div>
       </section>
-      <div className="container" >
-      <div className="selectCategoryContainer">
-        <h2 className="blockTitle">Select Category</h2>
-        <div className="categoryContainer">
-          <div className="categoryBtnBlock">
-            <button className="categoryBtn">All shoes</button>
-            <button className="categoryBtn">Outdoor</button>
-            <button className="categoryBtn">Tennis</button>
-            <button className="categoryBtn">Running</button>
+      <div className="container mobDisplNone">
+        <div className="selectCategoryContainer">
+          <h2 className="blockTitle">Select Category</h2>
+          <div className="categoryContainer">
+            <div className="categoryBtnBlock">
+              <button className="categoryBtn">All shoes</button>
+              <button className="categoryBtn">Outdoor</button>
+              <button className="categoryBtn">Tennis</button>
+              <button className="categoryBtn">Running</button>
+            </div>
           </div>
         </div>
       </div>
+      <div className="container mobDisplNone">
+        <div className="popularBlock">
+          <h3 className="popularTitle">Popular shoes</h3>
+          <button className="seeAllBtnPopular">See all</button>
+        </div>
+        <div className="shopCardContainer">
+          {randomItems.map((item) => (
+            <div key={uuidv4()} className="shopCard">
+              <button className="heartBtn" onClick={() => navigate("/")}>
+                <svg className="heartIcon">
+                  <use xlinkHref={`${sprite}#heart`} />
+                </svg>
+              </button>
+              <img src={item.image} alt="" className="shopCardImg" />
+              <p className="shopCardDiscTitle">BEST SELLER</p>
+              <p className="shopCardTitle">{item.name}</p>
+              <div className="shopCardFooter">
+                <p className="shopCardPrice">${item.price}</p>
+                <button
+                  className="addBasketIcon"
+                  onClick={() => {
+                    handleAddToBasket(item);
+                    setAddedToBasket(true);
+                  }}
+                >
+                  <img src={addToBasketIcon} alt="" />
+                </button>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="container bodyBlue mobDisplNone">
+        <div className="newArrivalsHeaderBlock">
+          <h3 className="newArrivalsTitle">New Arrivals</h3>
+          <button className="seeAllBtnArrivals">See all</button>
+        </div>
+        <Slider
+          autoplay={true}
+          autoplaySpeed={4000}
+          infinite={true}
+          slidesToShow={1}
+          slidesToScroll={1}
+          className="slider"
+        >
+          {data.map((item) => (
+            <div key={item.id} className="newArrivalsBlock">
+              <div className="arrivalsItemDetails">
+                <p className="newArrivalsItemTitle">Summer Sale</p>
+                <p className="newArrivalsSalesTitle">15% OFF</p>
+              </div>
+              <img src={newIcon} alt="" className="newIcon" />
+              <img src={star} alt="" className="star1" />
+              <img src={star} alt="" className="star2" />
+              <img src={star} alt="" className="star3" />
+              <img src={item.image} alt="" className="newArrivalsImage" />
+            </div>
+          ))}
+        </Slider>
       </div>
     </>
   );
