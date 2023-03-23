@@ -1,28 +1,21 @@
 {
   "files": {
     "main.css": "/shopApp/static/css/main.649abbde.css",
-    "main.js": "/shopApp/static/js/main.c0d3d38f.js",
+    "main.js": "/shopApp/static/js/main.3f8ea631.js",
     "static/media/nikeHero.jpg": "/shopApp/static/media/nikeHero.ca22f8d4812e105d6819.jpg",
-    "static/media/foot.svg": "/shopApp/static/media/foot.ec3746f8707a4e84e91116010b9f091a.svg",
     "static/media/shoes10.svg": "/shopApp/static/media/shoes10.16d3c07f66bc77ae04a03108830a043a.svg",
     "static/media/shoes5.svg": "/shopApp/static/media/shoes5.0bd7877d5ec29d082f21ef5cee71d24a.svg",
     "static/media/shoes6.svg": "/shopApp/static/media/shoes6.6cecee412a7c6587b65507afbf9f1f63.svg",
     "static/media/shoes3.svg": "/shopApp/static/media/shoes3.9417954ad7e938ad5f8e7026732fd263.svg",
-    "static/media/foot2.svg": "/shopApp/static/media/foot2.051f7d7d1bff6173032393cdd9511548.svg",
     "static/media/shoes8.svg": "/shopApp/static/media/shoes8.91b0140db37550227bef1e9c3203e311.svg",
     "static/media/symbol-defs.svg": "/shopApp/static/media/symbol-defs.3677141ef525d33897880ca0371c97b0.svg",
     "static/media/newIcon.svg": "/shopApp/static/media/newIcon.8778ff830c71d50742a7a2a710da9028.svg",
-    "static/media/Highlight_10.svg": "/shopApp/static/media/Highlight_10.cc41e73653ccc58eac96509822dad228.svg",
-    "static/media/Highlight2.svg": "/shopApp/static/media/Highlight2.c3612ef5cf4f7ded693ce1529484f9f7.svg",
     "static/media/slick.svg": "/shopApp/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/shopApp/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/shopApp/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/star.svg": "/shopApp/static/media/star.8c158fbdcb53c5daab76edbe85f6212e.svg",
     "static/media/slick.woff": "/shopApp/static/media/slick.295183786cd8a1389865.woff",
-    "static/media/Highlight1.svg": "/shopApp/static/media/Highlight1.bd738a1893d176ad173ce6d34fccc162.svg",
     "index.html": "/shopApp/index.html",
-    "static/media/smile.svg": "/shopApp/static/media/smile.33fac0b71721eaf42e587a5fc7cecb50.svg",
-    "static/media/Ellipse.svg": "/shopApp/static/media/Ellipse.78cfa364d624968c02dbb28c7a9f12c1.svg",
     "static/media/basket.svg": "/shopApp/static/media/basket.a63b44bdbf59076d1e712f3241d791fd.svg",
     "static/media/basketWhite.svg": "/shopApp/static/media/basketWhite.81357120b1ae3c5e4a0865d647b1726b.svg",
     "static/media/search.svg": "/shopApp/static/media/search.b604d4733673205de98ab7d1c0d95d6a.svg",
@@ -31,10 +24,10 @@
     "static/media/backIcon.svg": "/shopApp/static/media/backIcon.57e896f6c0df6591d6fbe8ddb1ebaf7f.svg",
     "static/media/Hamburger.svg": "/shopApp/static/media/Hamburger.b13588e42f304acfdaab0f5bdf5413e2.svg",
     "main.649abbde.css.map": "/shopApp/static/css/main.649abbde.css.map",
-    "main.c0d3d38f.js.map": "/shopApp/static/js/main.c0d3d38f.js.map"
+    "main.3f8ea631.js.map": "/shopApp/static/js/main.3f8ea631.js.map"
   },
   "entrypoints": [
     "static/css/main.649abbde.css",
-    "static/js/main.c0d3d38f.js"
+    "static/js/main.3f8ea631.js"
   ]
 }
