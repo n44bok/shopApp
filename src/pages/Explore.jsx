@@ -174,7 +174,7 @@ const Explore = () => {
             </div>
           ))}
         </Slider>
-        <div className="footerContainer bodyGray">
+        <div className="footerContainerMob bodyGray">
           <div className="justContCenter mainBasketBtnBlock">
             <button className="mainBasketBtn">
               <img
@@ -363,8 +363,8 @@ const Explore = () => {
           autoplay={true}
           autoplaySpeed={4000}
           infinite={true}
-          slidesToShow={1}
-          slidesToScroll={1}
+          slidesToShow={2}
+          slidesToScroll={2}
           className="slider"
         >
           {data.map((item) => (
@@ -381,6 +381,55 @@ const Explore = () => {
             </div>
           ))}
         </Slider>
+      </div>
+      <div className="container">
+        <div className="footerContainer">
+          <div className="footerInfoBlock">
+            <h3>GIFT CARDS</h3>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div className="footerInfoBlock">
+          <h3>GET HELP</h3>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div className="footerInfoBlock">
+          <h3>ABOUT US</h3>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div className="footerInfoBlock">
+          <h3>JOIN US</h3>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div className="footerInfoBlock">
+          <h3>SOCIAL MEDIA</h3>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </>
   );

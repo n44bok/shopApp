@@ -359,7 +359,9 @@
     border-radius: 8px;
     padding: 14px;
     @media (min-width: $screen-med) {
-        display: none !important;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .sliderMob {
@@ -455,7 +457,7 @@
     cursor: pointer;
 }
 
-.footerContainer {
+.footerContainerMob {
     background: #fff;
     padding: 20px;
     border-radius: 14px;
@@ -665,6 +667,9 @@ div.searchHeaderBlock form {
 
 .shopCardContainer {
     display: grid;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
     grid-gap: 20px;
     margin-bottom: 2vh;
     grid-template-columns: repeat(2, 1fr);
@@ -689,6 +694,9 @@ div.searchHeaderBlock form {
 }
 
 .popularBlock {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: space-between;
     margin-bottom: 2vh;
@@ -744,6 +752,9 @@ div.searchHeaderBlock form {
 
 .newArrivalsHeaderBlock {
     display: flex;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: space-between;
     margin-bottom: 2vh;
     @media (max-width: $screen-med) {
@@ -780,6 +791,13 @@ div.searchHeaderBlock form {
     @media (max-width: $screen-med) {
         display: none;
     }
+}
+
+.footerContainer {
+    display: flex;
+}
+.footerInfoBlock {
+    width: 200px;
 }
   
   
