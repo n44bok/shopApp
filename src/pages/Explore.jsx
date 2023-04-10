@@ -294,7 +294,7 @@ const Explore = () => {
         </div>
       </header>
       <section className="imageSection">
-        <img src={nikeHero} alt="" className="responsiveImage" />
+        <img src={nikeHero} alt="heroImage" className="responsiveImage" />
         <div className="imageText">
           <h1>
             <span>MID SEASON SALE</span>
