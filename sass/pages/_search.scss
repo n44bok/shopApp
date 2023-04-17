@@ -42,12 +42,13 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 18px;
     line-height: 20px;
     color: #6A6A6A;
     background: none;
     margin-bottom: 0;
     padding: 0;
+    text-transform: capitalize;
 }
 
 .searchInput:focus {

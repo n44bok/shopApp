@@ -1,6 +1,7 @@
  $bg-white: #ffffff;
  $bg-blue: #1483C2;
  $bg-gray: #F7F7F9;
+ $bg-black: #000000;
 
  $screen-small: 320px;
  $screen-med: 768px;
@@ -13,12 +14,9 @@
      height: 100%;
  }
 
- .mobileContainer {
+ .container {
      height: 100%;
      padding: 20px;
- }
- .container {
-    padding: 2rem;
  }
 
 
@@ -33,9 +31,6 @@
  .bodyBlue {
     background: #1483C2;
 }
-
-.mobDisplNone {
-    @media (max-width: $screen-med) {
-        display: none;
-    }
+.bodyBlack {
+    background: $bg-black;
 }

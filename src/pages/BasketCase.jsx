@@ -25,7 +25,7 @@ const BasketCase = () => {
     <>
       <div className="basketContainer bodyGray">
         <div className="headerSection bodyGray">
-          <button className="backBtnIcon" onClick={() => navigate("/explore")}>
+          <button className="backBtnIcon" onClick={() => navigate("/shopApp")}>
             <img src={backIcon} alt="" />
           </button>
           <h2 className="sectionTitle bodyGray">My Card</h2>
