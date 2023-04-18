@@ -23,6 +23,7 @@
 .justSpaceBetween {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .mr41px {
     margin-right: 41px;
@@ -39,4 +40,7 @@
 .w150 {
     width: 150px;
     font-size: 20px;
+}
+.flex {
+    display: flex;
 }

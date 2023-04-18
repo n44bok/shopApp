@@ -7,6 +7,7 @@ body {
 .container {
   height: 100%;
   padding: 20px;
+  position: relative;
 }
 
 .bodyWhite {
@@ -324,6 +325,7 @@ body {
 .justSpaceBetween {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .mr41px {
@@ -346,6 +348,10 @@ body {
 .w150 {
   width: 150px;
   font-size: 20px;
+}
+
+.flex {
+  display: flex;
 }
 
 .mainTitle {
@@ -679,7 +685,7 @@ input {
   line-height: 16px;
   text-transform: capitalize;
   color: #b6b5b5;
-  font-size: 20px;
+  font-size: 14px;
   border: none;
   background: transparent;
   cursor: pointer;
@@ -737,6 +743,46 @@ input {
   position: absolute;
   bottom: 100px;
   right: 10px;
+}
+
+.productModalImg {
+  width: 100%;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.productModalPrice {
+  font-size: 30px;
+  color: rgb(15, 218, 15);
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+}
+
+.productModalDescription {
+  font-family: "Raleway";
+  font-style: normal;
+  text-transform: capitalize;
+  color: #2B2B2B;
+  font-size: 14px;
+}
+
+.productModalBasketBtn {
+  display: block;
+  width: 120px;
+  height: 40px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #2B2B2B;
+  font-size: 14px;
+  padding: 5px 10px;
+  background-color: #F7F7F9;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .footerInfoList {
